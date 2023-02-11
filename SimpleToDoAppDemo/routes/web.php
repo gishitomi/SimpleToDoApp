@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/', 'App\Http\Controllers\TodoControllers\HomeController@index')->name('todo.home');
