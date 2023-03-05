@@ -14,6 +14,9 @@
 		40A6F6B12997BBA900BD3B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F6AF2997BBA900BD3B1C /* Main.storyboard */; };
 		40A6F6B32997BBAC00BD3B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F6B22997BBAC00BD3B1C /* Assets.xcassets */; };
 		40A6F6B62997BBAC00BD3B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F6B42997BBAC00BD3B1C /* LaunchScreen.storyboard */; };
+		40BD037B29B4DF19003DF8F4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD037A29B4DF18003DF8F4 /* HistoryViewController.swift */; };
+		40BD037D29B4DF64003DF8F4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD037C29B4DF64003DF8F4 /* SettingViewController.swift */; };
+		40BD037F29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD037E29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		40A6F6B22997BBAC00BD3B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A6F6B52997BBAC00BD3B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A6F6B72997BBAC00BD3B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BD037A29B4DF18003DF8F4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		40BD037C29B4DF64003DF8F4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		40BD037E29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		41C2F5DB688FE046E59BAFAC /* Pods-SimpleToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleToDoApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleToDoApp/Pods-SimpleToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CEFF449C8460B2C0F63624ED /* Pods-SimpleToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleToDoApp.release.xcconfig"; path = "Target Support Files/Pods-SimpleToDoApp/Pods-SimpleToDoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,9 +73,12 @@
 				40A6F6AB2997BBA900BD3B1C /* SceneDelegate.swift */,
 				40A6F6AD2997BBA900BD3B1C /* ViewController.swift */,
 				40A6F6AF2997BBA900BD3B1C /* Main.storyboard */,
+				40BD037E29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift */,
+				40BD037C29B4DF64003DF8F4 /* SettingViewController.swift */,
 				40A6F6B22997BBAC00BD3B1C /* Assets.xcassets */,
 				40A6F6B42997BBAC00BD3B1C /* LaunchScreen.storyboard */,
 				40A6F6B72997BBAC00BD3B1C /* Info.plist */,
+				40BD037A29B4DF18003DF8F4 /* HistoryViewController.swift */,
 			);
 			path = SimpleToDoApp;
 			sourceTree = "<group>";
@@ -88,7 +97,6 @@
 				41C2F5DB688FE046E59BAFAC /* Pods-SimpleToDoApp.debug.xcconfig */,
 				CEFF449C8460B2C0F63624ED /* Pods-SimpleToDoApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BD037D29B4DF64003DF8F4 /* SettingViewController.swift in Sources */,
 				40A6F6AE2997BBA900BD3B1C /* ViewController.swift in Sources */,
 				40A6F6AA2997BBA900BD3B1C /* AppDelegate.swift in Sources */,
+				40BD037F29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift in Sources */,
 				40A6F6AC2997BBA900BD3B1C /* SceneDelegate.swift in Sources */,
+				40BD037B29B4DF19003DF8F4 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
