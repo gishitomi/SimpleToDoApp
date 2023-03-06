@@ -90,12 +90,44 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="3.6945812807881775"/>
         </scene>
+        <!--Hamberger Menu View Controller-->
+        <scene sceneID="bt2-gI-TMV">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="29X-Az-PbD" customClass="HambergerMenuViewController" customModule="SimpleToDoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="1" contentMode="scaleToFill" id="Ear-xT-sog">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q57-wc-u9g">
+                                <rect key="frame" x="0.0" y="0.0" width="246" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lZo-pK-I0d"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="menuView" destination="Q57-wc-u9g" id="21N-Hn-D8F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPn-o0-t8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="-887.4384236453202"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="sCO-IM-IXo">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fjj-se-FMM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="YxM-lY-UqJ"/>
+                    <navigationItem key="navigationItem" id="YxM-lY-UqJ">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="qOv-ew-kw3">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="29X-Az-PbD" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="2nB-55-OH3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ibU-fa-QdN">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -173,6 +205,7 @@
         <image name="doc.text.fill" catalog="system" width="115" height="128"/>
         <image name="ellipsis" catalog="system" width="128" height="37"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="65"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

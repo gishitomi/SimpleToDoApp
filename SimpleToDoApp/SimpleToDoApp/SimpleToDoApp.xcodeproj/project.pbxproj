@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16A6A3D8FE375EDFF4DAAF06 /* Pods_SimpleToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40855C4479ABA4CDE25FBC0D /* Pods_SimpleToDoApp.framework */; };
+		40895C7729B6354500D8372A /* HambergerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40895C7629B6354500D8372A /* HambergerMenuViewController.swift */; };
 		40A6F6AA2997BBA900BD3B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F6A92997BBA900BD3B1C /* AppDelegate.swift */; };
 		40A6F6AC2997BBA900BD3B1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F6AB2997BBA900BD3B1C /* SceneDelegate.swift */; };
 		40A6F6AE2997BBA900BD3B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F6AD2997BBA900BD3B1C /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		40855C4479ABA4CDE25FBC0D /* Pods_SimpleToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40895C7629B6354500D8372A /* HambergerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HambergerMenuViewController.swift; sourceTree = "<group>"; };
 		40A6F6A62997BBA900BD3B1C /* SimpleToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A6F6A92997BBA900BD3B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A6F6AB2997BBA900BD3B1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				40A6F6AB2997BBA900BD3B1C /* SceneDelegate.swift */,
 				40A6F6AD2997BBA900BD3B1C /* ViewController.swift */,
 				40A6F6AF2997BBA900BD3B1C /* Main.storyboard */,
+				40895C7629B6354500D8372A /* HambergerMenuViewController.swift */,
 				40BD037E29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift */,
 				40BD037C29B4DF64003DF8F4 /* SettingViewController.swift */,
 				40A6F6B22997BBAC00BD3B1C /* Assets.xcassets */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40BD037D29B4DF64003DF8F4 /* SettingViewController.swift in Sources */,
+				40895C7729B6354500D8372A /* HambergerMenuViewController.swift in Sources */,
 				40A6F6AE2997BBA900BD3B1C /* ViewController.swift in Sources */,
 				40A6F6AA2997BBA900BD3B1C /* AppDelegate.swift in Sources */,
 				40BD037F29B4E3BD003DF8F4 /* PrivacyPolicyViewController.swift in Sources */,
