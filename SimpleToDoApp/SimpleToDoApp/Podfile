@@ -7,4 +7,5 @@ target 'SimpleToDoApp' do
 
   # Pods for SimpleToDoApp
   pod 'XLPagerTabStrip'
+  pod 'FSCalendar'
 end

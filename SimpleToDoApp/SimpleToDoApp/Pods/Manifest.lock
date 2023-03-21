@@ -1,16 +1,20 @@
 PODS:
+  - FSCalendar (2.8.4)
   - XLPagerTabStrip (8.1.0)
 
 DEPENDENCIES:
+  - FSCalendar
   - XLPagerTabStrip
 
 SPEC REPOS:
   trunk:
+    - FSCalendar
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
   XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
 
-PODFILE CHECKSUM: 77cfc867830b59c1e2902405f4bc14bfdc4dcf3f
+PODFILE CHECKSUM: 17fd68c4b33ecc231df092a0798230e4e39e8adf
 
 COCOAPODS: 1.11.3
